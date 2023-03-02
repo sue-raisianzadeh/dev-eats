@@ -13,7 +13,7 @@
 "Image": "server/public/images/carlton-gore.jpg"}
 
 ],
-"homeImage":""},
+"homeImage":"server/public/images/coffee.jpeg"},
 
 {"fast-food":[
   
@@ -27,7 +27,7 @@
 "Address": "444 Khyber Pass Road, Newmarket, Auckland 1023",
 "Image": "server/public/images/lumsden.png"}
 ],
-"homeImage":""},
+"homeImage":"server/public/images/fast-food.jpg"},
 
 {"italian":[
   {"Name": "Pastarita",
@@ -40,13 +40,13 @@
 "Address": "63 Davis Crescent, Newmarket, Auckland 1023",
 "Image": "server/public/images/Archies-Pizza.png"}
 ],
-"homeImage":""},
+"homeImage":"server/public/images/Italy.png"},
 
 {"indian":[
  { "Name": "Delight Spice Indian Cuisine",
 "Webpage": "https://www.delightspice.com/",
 "Address": "471 Khyber Pass Rd, Newmarket, Auckland 1023",
-"Image": "server/public/images/delight-spice.jpg"},\
+"Image": "server/public/images/delight-spice.jpg"},
 
 {"Name": "Aroma Indian",
 "Webpage": "https://aromaindiancuisineonline.co.nz/",
@@ -54,7 +54,7 @@
 "Image": "server/public/images/aroma-indian-cuisine.jpg"
 }
 ],
-"homeImage":""},
+"homeImage":"server/public/images/Indian.jpeg"},
 {"asian":[
   {
     "Name": "Kingdom Sushi",
@@ -69,7 +69,7 @@
     "Image": "server/public/images/dumpling-station.jpg"
   }
 ],
-"homeImage":""},
+"homeImage":"server/public/images/asian.jpg"},
 {"vegan":[
   {
     "Name": "Gorilla Kitchen",
@@ -83,5 +83,5 @@
 "Address": "177 Symonds Street, Eden Terrace",
 "Image": "server/public/images/forest-restaurant.jpg"  }
 ],
-"homeImage":""}
+"homeImage":"server/public/images/vegan.jpeg"}
 ]}
