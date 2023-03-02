@@ -1,0 +1,40 @@
+{"cuisines": [
+
+{"cafe": [
+
+  {"Name": "Mutual Friends Cafe",
+"Webpage": "http://mutualfriendsespresso.co.nz/",
+"Address": "2 Morgan Street, Newmarket, Auckland",
+"Image":""},
+
+{"Name": "Carlton Gore Cafe",
+"Webpage": "https://www.aucklandnz.com/visit/taste/dining/cafes/carlton-gore-cafe-newmarket",
+"Address": "139 Carlton Gore Road, Newmarket, Auckland",
+"Image": ""}
+
+],
+"homeImage":""},
+
+{"fast-food":[
+  
+  {"Name": "Burger Burger",
+"Webpage": "https://burgerburger.co.nz/locations/newmarket/",
+"Address": "Osbourne Lane, 3B York Street",
+"Image": ""},
+
+{"Name": "Lumsden",
+"Webpage": "http://thelumsden.co.nz",
+"Address": "444 Khyber Pass Road, Newmarket, Auckland 1023",
+"Image": ""}
+],
+"homeImage":""},
+
+{"italian":[],
+"homeImage":""},
+{"indian":[],
+"homeImage":""},
+{"asian":[],
+"homeImage":""},
+{"vegan":[],
+"homeImage":""}
+]}
