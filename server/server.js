@@ -3,6 +3,8 @@ const hbs = require('express-handlebars')
 
 const server = express()
 
+const routes = require('/routes.js')
+
 // Server configuration
 const publicFolder = __dirname + '/public'
 server.use(express.static(publicFolder))
@@ -14,5 +16,6 @@ server.set('view engine', 'hbs')
 server.set('views', __dirname + '/views')
 
 // Your routes/router(s) should go here
+
 
 module.exports = server
