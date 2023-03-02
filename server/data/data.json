@@ -1,0 +1,87 @@
+{"cuisines": [
+
+{"cafe": [
+
+  {"Name": "Mutual Friends Cafe",
+"Webpage": "http://mutualfriendsespresso.co.nz/",
+"Address": "2 Morgan Street, Newmarket, Auckland",
+"Image":"server/public/images/mutual-friends.png"},
+
+{"Name": "Carlton Gore Cafe",
+"Webpage": "https://www.aucklandnz.com/visit/taste/dining/cafes/carlton-gore-cafe-newmarket",
+"Address": "139 Carlton Gore Road, Newmarket, Auckland",
+"Image": "server/public/images/carlton-gore.jpg"}
+
+],
+"homeImage":""},
+
+{"fast-food":[
+  
+  {"Name": "Burger Burger",
+"Webpage": "https://burgerburger.co.nz/locations/newmarket/",
+"Address": "Osbourne Lane, 3B York Street",
+"Image": "server/public/images/burger-burger.png"},
+
+{"Name": "Lumsden",
+"Webpage": "http://thelumsden.co.nz",
+"Address": "444 Khyber Pass Road, Newmarket, Auckland 1023",
+"Image": "server/public/images/lumsden.png"}
+],
+"homeImage":""},
+
+{"italian":[
+  {"Name": "Pastarita",
+  "Webpage": "https://pastarita.co.nz/",
+  "Address": "10 Teed Street, Newmarket, Auckland 1023",
+  "Image": ""},
+
+  {"Name": "Archies Restaurant & Pizzaria",
+"Webpage": "https://archiespizzeria.co.nz/",
+"Address": "63 Davis Crescent, Newmarket, Auckland 1023",
+"Image": "server/public/images/Archies-Pizza.png"}
+],
+"homeImage":""},
+
+{"indian":[
+ { "Name": "Delight Spice Indian Cuisine",
+"Webpage": "https://www.delightspice.com/",
+"Address": "471 Khyber Pass Rd, Newmarket, Auckland 1023",
+"Image": "server/public/images/delight-spice.jpg"},\
+
+{"Name": "Aroma Indian",
+"Webpage": "https://aromaindiancuisineonline.co.nz/",
+"Address": "Level 1, Rialto Centre Foodcourt 153/185, Broadway, Newmarket, Auckland 1023",
+"Image": "server/public/images/aroma-indian-cuisine.jpg"
+}
+],
+"homeImage":""},
+{"asian":[
+  {
+    "Name": "Kingdom Sushi",
+    "Webpage": "https://www.facebook.com/profile.php?id=100064235433013",
+    "Address": "Kingdom Street, Newmarket, Auckland 1023",
+    "Image": "server/public/images/kingdom-sushi.jpg"
+  },
+  {
+    "Name": "Dumpling Station",
+    "Webpage": "www.aucklandnz.com/visit/taste/dining/quick-bites/dumpling-station-daoxuemianguan-newmarket",
+    "Address": "442c Khyber Pass Road, Newmarket, Auckland 1149",
+    "Image": "server/public/images/dumpling-station.jpg"
+  }
+],
+"homeImage":""},
+{"vegan":[
+  {
+    "Name": "Gorilla Kitchen",
+    "Webpage": "https://www.gorillakitchen.nz/",
+    "Address": "159 - Symonds Street, Eden Terrace, Auckland",
+    "Image": "server/public/images/gorilla-kitchen.jpg"
+  },
+  {
+    "Name": "Forest",
+  "Webpage": "www.whatisforest.com/",
+"Address": "177 Symonds Street, Eden Terrace",
+"Image": "server/public/images/forest-restaurant.jpg"  }
+],
+"homeImage":""}
+]}
