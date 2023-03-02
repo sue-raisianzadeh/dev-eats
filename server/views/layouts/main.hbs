@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="/main.css">
     <link rel="icon" href="data:,">
   </head>
+  {{> header}}
   <body>
-    <div class="header">
-            <a class="nav" href="/">Home</a>
-            <a class="nav" href="/">About</a>
-            <a class="nav" href="/">Contact</a>
+    <div class="body">  
       {{{body}}}
-      {{{header}}}
-      {{{footer}}}
-
-    </div>
+      </div>
+  {{> footer}}
+  
+  
+ 
+    
   </body>
 </html>

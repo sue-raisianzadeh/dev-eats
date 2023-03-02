@@ -1,8 +1,13 @@
 body {
-  background-color: #FFDFD6;
+  background-color: #FFDFD6;  
 }
 
 .header {
   background-color: #FF7F5C;
+}
 
+.footer {
+  background-color: #FF7F5C;
+  text-align: center;
+  font-size: 
 }
