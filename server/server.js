@@ -3,6 +3,8 @@ const hbs = require('express-handlebars')
 
 const server = express()
 
+const routes = require('/routes.js')
+
 // Server configuration
 const publicFolder = __dirname + '/public'
 server.use(express.static(publicFolder))
@@ -17,5 +19,6 @@ server.set('views', __dirname + '/views')
 server.get('/', (req, res) => {
   res.render('home')
 })
+
 
 module.exports = server
