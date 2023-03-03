@@ -1,6 +1,7 @@
 const express = require('express')
 const fs = require('fs').promises
 const fastFoodRouter = express.Router()
+const data = 'server/data/data.json'
 
 fastFoodRouter.get('/:id', async(req,res) => {
     try{
@@ -23,3 +24,4 @@ fastFoodRouter.get('/:id', async(req,res) => {
 })
 
 module.exports = fastFoodRouter
+
