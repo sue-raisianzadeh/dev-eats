@@ -3,17 +3,13 @@ const hbs = require('express-handlebars')
 const fs = require('node:fs/promises')
 
 const server = express()
-<<<<<<< HEAD
 
-//const routes = require('/routes.js')
-=======
 const cafeRouter = require('./cafe-routes')
 const fastFoodRouter = require('./fast-food-routes')
 const italianRouter = require('./italian-routes')
 const asianRouter = require('./asian-routes')
 const indianRouter = require('./indian-routes')
 const veganRouter = require('./vegan-routes')
->>>>>>> 777443a50c19a8e1273e2f71708ec445f6604bca
 
 // Server configuration
 const publicFolder = __dirname + '/public'
@@ -35,21 +31,19 @@ server.get('/', async (req, res) => {
       const items = Object.keys(resturant)
       return { name: items[0], image: resturant.homeImage }
     })
-    let allcuisinesData = { cuisine: cuisine }
+    let allcuisinesData = { restaurant: cuisine }
     res.render('home', allcuisinesData)
     // console.log(cuisine)
   } catch (error) {
     console.error('Error loading cuisineData', error)
   }
 })
-<<<<<<< HEAD
-=======
+
 server.use('/cafe', cafeRouter)
 server.use('/fast-food', fastFoodRouter)
 server.use('/italian', italianRouter)
 server.use('/asian', asianRouter)
 server.use('/indian', indianRouter)
 server.use('/vegan', veganRouter)
->>>>>>> 777443a50c19a8e1273e2f71708ec445f6604bca
 
 module.exports = server
