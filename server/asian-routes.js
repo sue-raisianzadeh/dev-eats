@@ -11,7 +11,8 @@ asianRouter.get('/', async (req, res) => {
     )
 
     const finalData = asianData.asian
-    // res.render('cuisines', finalData)
+    const obj = { item: finalData }
+    res.render('details', obj)
   } catch (err) {
     console.log(err)
   }
@@ -27,7 +28,7 @@ asianRouter.get('/:id', async (req, res) => {
       }
     })
     const finalData = asianData.asian[Number(req.params.id) - 1]
-    // res.render('restaurant', finalData)
+    res.render('restaurant', finalData)
   } catch (err) {
     console.log(err)
   }
