@@ -38,6 +38,12 @@ body {
     gap: 20px;
   }
 
+  .rest-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
   .body {
     width: 1050px;
     margin: 60px auto;

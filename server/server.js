@@ -40,7 +40,7 @@ server.get('/', async (req, res) => {
 })
 
 server.use('/cafe', cafeRouter)
-server.use('/fast-food', fastFoodRouter)
+server.use('/fastFood', fastFoodRouter)
 server.use('/italian', italianRouter)
 server.use('/asian', asianRouter)
 server.use('/indian', indianRouter)
