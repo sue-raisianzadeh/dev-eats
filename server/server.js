@@ -25,9 +25,17 @@ server.set('views', __dirname + '/views')
 server.get('/', async (req, res) => {
   try {
     const cuisineData = await fs.readFile('server/data/data.json')
-    console.log(cuisineData)
-  } catch (error) {}
-  res.render('home')
+    const cuisineParse = JSON.parse(cuisineData)
+    const cuisine = cuisineParse.cuisines.map((resturant) => {
+      const items = Object.keys(resturant)
+      return { name: items[0], image: resturant.homeImage }
+    })
+    let allcuisinesData = { cuisine: cuisine }
+    res.render('home', allcuisinesData)
+    // console.log(cuisine)
+  } catch (error) {
+    console.error('Error loading cuisineData', error)
+  }
 })
 server.use('/cafe', cafeRouter)
 server.use('/fast-food', fastFoodRouter)
