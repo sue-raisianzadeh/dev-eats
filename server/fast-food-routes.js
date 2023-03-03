@@ -18,6 +18,7 @@ fastFoodRouter.get('/', async (req, res) => {
   }
 })
 
+
 fastFoodRouter.get('/:id', async (req, res) => {
   try {
     const data = await fs.readFile('server/data/data.json', 'utf-8')
@@ -32,6 +33,7 @@ fastFoodRouter.get('/:id', async (req, res) => {
   } catch (err) {
     console.log(err)
   }
+
 })
 
 module.exports = fastFoodRouter

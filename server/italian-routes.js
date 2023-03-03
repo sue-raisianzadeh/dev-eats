@@ -1,6 +1,8 @@
 const express = require('express')
+const fs = require('fs').promises
 const italianRouter = express.Router()
 const fs = require('node:fs/promises')
+
 
 italianRouter.get('/', async (req, res) => {
   try {
@@ -9,7 +11,6 @@ italianRouter.get('/', async (req, res) => {
     const asianData = cuisinesData.cuisines.find((cuisine) =>
       cuisine.hasOwnProperty('italian')
     )
-
     const finalData = asianData.italain
     const obj = { item: finalData }
     res.render('details', obj)

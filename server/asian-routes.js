@@ -1,6 +1,7 @@
 const express = require('express')
-const asianRouter = express.Router()
 const fs = require('fs').promises
+const asianRouter = express.Router()
+
 
 asianRouter.get('/', async (req, res) => {
   try {
@@ -33,5 +34,6 @@ asianRouter.get('/:id', async (req, res) => {
     console.log(err)
   }
 })
+
 
 module.exports = asianRouter
