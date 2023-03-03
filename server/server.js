@@ -2,12 +2,12 @@ const express = require('express')
 const hbs = require('express-handlebars')
 
 const server = express()
-const cafeRouter = require('/cafe-routes.js')
-const fastFoodRouter = require('/fast-food-routes.js')
-const italianRouter = require('/italianRouter')
-const asianRouter = require('/asian-routes.js')
-const indianRouter = require('/indian-routes.js')
-const veganRouter = require('/vegan-routes.js')
+const cafeRouter = require('./cafe-routes.js')
+const fastFoodRouter = require('./fast-food-routes.js')
+const italianRouter = require('./italian-routes.js')
+const asianRouter = require('./asian-routes.js')
+const indianRouter = require('./indian-routes.js')
+const veganRouter = require('./vegan-routes.js')
 
 
 // Server configuration
