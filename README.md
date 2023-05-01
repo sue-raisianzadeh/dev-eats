@@ -7,4 +7,4 @@ Javascript, Server side handlers and CSS3 are used in it
 https://www.notion.so/Fri-Project-1-8a746d3197b04d539f40c2c917b8a7fb
 
 
-[main page](server/public/images/dev-eat.png)
+[main page](dev-eat.png)
