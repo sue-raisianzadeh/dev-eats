@@ -1,8 +1,6 @@
 const express = require('express')
 const fs = require('fs').promises
 const italianRouter = express.Router()
-const fs = require('node:fs/promises')
-
 
 italianRouter.get('/', async (req, res) => {
   try {
