@@ -1,8 +1,6 @@
 const express = require('express')
-const fs = require('fs').promises
+const { promises: fs } = require('node:fs')
 const veganRouter = express.Router()
-
-const fs = require('node:fs/promises')
 
 veganRouter.get('/', async (req, res) => {
   try {
